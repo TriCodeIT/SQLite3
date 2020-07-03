@@ -7,7 +7,6 @@ CREATE TABLE Matakuliah
 INSERT INTO Matakuliah(id_mk,nama_matakuliah,jumlah_sks) VALUES ('MK001','Fisika Kuantum', 4);
 INSERT INTO Matakuliah(id_mk,nama_matakuliah,jumlah_sks) VALUES ('MK002','Fisika Komputasi', 3);
 INSERT INTO Matakuliah(id_mk,nama_matakuliah,jumlah_sks) VALUES ('MK003','Instrumentasi Cerdas', 4);
-
 INSERT INTO Matakuliah(id_mk,nama_matakuliah,jumlah_sks) VALUES ('MK004','Data Mining', 4);
 INSERT INTO Matakuliah(id_mk,nama_matakuliah,jumlah_sks) VALUES ('MK005','Manajemen Data', 3);
 
@@ -61,7 +60,6 @@ INSERT INTO KontrakKuliah(id_kontrak,nim,id_mk,id_dos,nilai) VALUES ('00004','20
 INSERT INTO KontrakKuliah(id_kontrak,nim,id_mk,id_dos,nilai) VALUES ('00005','2018210022','MK001','DOS003','A');
 INSERT INTO KontrakKuliah(id_kontrak,nim,id_mk,id_dos,nilai) VALUES ('00006','2018210020','MK005','DOS002','A');
 INSERT INTO KontrakKuliah(id_kontrak,nim,id_mk,id_dos,nilai) VALUES ('00007','2018210020','MK004','DOS003','B');
-
 INSERT INTO KontrakKuliah(id_kontrak,nim,id_mk,id_dos,nilai) VALUES ('00008','2018210021','MK003','DOS001','D');
 INSERT INTO KontrakKuliah(id_kontrak,nim,id_mk,id_dos,nilai) VALUES ('00009','2018210020','MK005','DOS002','E');
 INSERT INTO KontrakKuliah(id_kontrak,nim,id_mk,id_dos,nilai) VALUES ('00010','2018210022','MK004','DOS003','E');
